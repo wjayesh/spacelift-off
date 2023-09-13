@@ -1,7 +1,7 @@
 variable "enable_artifact_store1" {
-  type        = bool
+  type        = string
   description = "Whether to enable the artifact store or not"
-  default     = true
+  default     = "true"
 }
 
 variable "enable_artifact_store2" {
